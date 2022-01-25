@@ -7,7 +7,7 @@ import ArrowImage from '../../images/down-arrow.svg';
 import Fade from 'react-reveal/Fade';
 const Section = (props) => {
   return (
-  <Wrapper bgImage={props.backgroundImg} >
+  <Wrapper bgImage={props.backgroundImg} id={props.id}>
     <Fade bottom>
       <ItemText title={props.title} subTitle={props.subTitle}/>
     </Fade>

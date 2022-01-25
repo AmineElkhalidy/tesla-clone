@@ -13,6 +13,7 @@ const Home = () => {
   return (
   <Container>
       <Section 
+      id='modelS'
       title="Model S" 
       subTitle=" Order Online for Touchless Delivery"
       backgroundImg={firstImage}
@@ -20,6 +21,7 @@ const Home = () => {
       rightButton='Existing Inventory' />
 
       <Section
+      id='modelY'
       title="Model Y" 
       subTitle="Order Online for Touchless Delivery"
       backgroundImg={secondImage}
@@ -27,12 +29,14 @@ const Home = () => {
       rightButton='Existing Inventory' />
 
       <Section 
+      id='model3'
       title="Model 3" 
       subTitle="Order Online for Touchless Delivery"
       backgroundImg={thirdImage}
       leftButton='Custom Order'
       rightButton='Existing Inventory'/>
       <Section 
+      id='modelX'
       title="Model X" 
       subTitle="Order Online for Touchless Delivery"
       backgroundImg={fourthImage}

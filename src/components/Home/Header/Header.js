@@ -20,25 +20,25 @@ function Header() {
           {/* {cars && cars.map((car, index) => (
             <a href='#' key={index}>{car}</a>
           ))} */}
-          <a href='#'>
+          <a href='#modelS'>
             Model S
           </a>
         
 
         
-          <a href='#'>
+          <a href='#modelY'>
             Model Y
           </a>
         
 
         
-          <a href='#'>
+          <a href='#model3'>
             Model 3
           </a>
         
 
         
-          <a href='#'>
+          <a href='#modelX'>
             Model X
           </a>
       </Menu>
